@@ -2,7 +2,16 @@ module github.com/yudaiyan/go-depgraph
 
 go 1.22.5
 
-require github.com/yudaiyan/go-tap v0.0.2
+require (
+	github.com/yudaiyan/go-dhcp v0.0.6
+	github.com/yudaiyan/go-dhcpd v0.0.6
+	github.com/yudaiyan/go-netlink v0.0.4
+	github.com/yudaiyan/go-sqlite-tool-server v0.0.1
+	github.com/yudaiyan/go-sync v0.0.9
+	github.com/yudaiyan/go-toolkit v0.0.3
+	github.com/yudaiyan/go-util v0.0.2
+	github.com/yudaiyan/gonetsh v0.0.1
+)
 
 require (
 	github.com/google/gopacket v1.1.19 // indirect
@@ -19,6 +28,7 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/vishvananda/netlink v1.1.0 // indirect
 	github.com/vishvananda/netns v0.0.4 // indirect
+	github.com/yudaiyan/go-tap v0.0.2
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/net v0.27.0 // indirect
@@ -32,13 +42,6 @@ require (
 require (
 	github.com/go-errors/errors v1.5.1 // indirect
 	github.com/songgao/water v0.0.0-20200317203138-2b4b6d7c09d8 // indirect
-	github.com/yudaiyan/go-dhcp v0.0.6
-	github.com/yudaiyan/go-dhcpd v0.0.6
-	github.com/yudaiyan/go-netlink v0.0.4
-	github.com/yudaiyan/go-sqlite-tool-server v0.0.1
-	github.com/yudaiyan/go-sync v0.0.9
-	github.com/yudaiyan/go-util v0.0.2
-	github.com/yudaiyan/gonetsh v0.0.1
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
 	golang.org/x/sys v0.23.0 // indirect
 )

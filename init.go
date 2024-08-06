@@ -1,4 +1,4 @@
-package toolkit
+package depgraph
 
 import (
 	_ "github.com/yudaiyan/go-dhcp/dhcp"
